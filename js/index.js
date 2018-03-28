@@ -1,4 +1,4 @@
-//顶部导航弹窗效果
+﻿//顶部导航弹窗效果
 {
     $(".sn-menu1").mouseenter(function(){
         $(".mytan").css("display","block");
@@ -65,7 +65,7 @@
         });
         $(this).mouseleave(function(){
             $(".buycar_tan").eq(ele).animate({right:'70px'});
-                $(".buycar_tan").fadeOut(10);
+                $(".buycar_tan").hide();
         });
     })
 }
