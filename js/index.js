@@ -94,7 +94,7 @@
     let detail=$(".floor-tab-detail");
     $(span).mouseenter(function(){
         let index=$(span).index(this);
-        $(span).css("background","#f1f1f1").eq(index).css("background","#00b262");
+        $(span).removeClass("active").eq(index).addClass("active");
         $(detail).css("display","none").eq(index).css("display","block");
     })
 }
