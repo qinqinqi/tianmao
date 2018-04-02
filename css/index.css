@@ -31,7 +31,6 @@ body{
     position: relative;
 }
 .login-info{
-    width:218px;
     height:32px;
     float:left;
 }
@@ -43,6 +42,7 @@ body{
     color:#FF0036;
 }
 .sn-quick-menu{
+    position:relative;
     float:right;
 }
 .sn-quick-menu li{
@@ -57,7 +57,7 @@ body{
     width:477px;
     position:absolute;
     top:32px;
-    right:0;
+    left:0;
     background: #fff;
 }
 .mytan,.lovetan{
@@ -66,7 +66,7 @@ body{
     border: solid #eee;
     border-width: 0 1px 1px;
     position:absolute;
-    left:-2px;
+    left:0;
     background:#fff;
     line-height: 26px;
     display:none;
@@ -85,11 +85,15 @@ body{
     background: #fff;
     margin:0 auto;
 }
+.search_center{
+    width:1210px;
+    margin:0 auto;
+}
 .search a img{
     float:left;
 }
 .search_right{
-    width:900px;
+    width:840px;
     height:106px;
     /*background: #fff9ec;*/
     float:left;
@@ -219,8 +223,10 @@ body{
 
 }
 .banner_img img{
-    width: 100%;
+    display: block;
+    width:1230px;
     height: 500px;
+    margin:0 auto;
 }
 .slider-nav{
     display: block;
@@ -526,7 +532,6 @@ body{
     position: absolute;
     overflow: hidden;
     transition: all .3s ease-out;
-    z-index: 500;
 }
 .fpBrandFresh i{
     font-family: 'iconfont';
@@ -771,9 +776,9 @@ body{
     background-size: cover;
 }
 .guanggao img{
-    width:1620px;
+    width:1230px;
     height:90px;
-    margin:10px 0 0 -165px;
+    /*margin:10px 0 0 -165px;*/
 }
 .title{
     float:left;
@@ -971,7 +976,7 @@ body{
 /*右侧固定部分开始*/
 .rightbar{
     width:35px;
-    height:662px;
+    height:100%;
     background:#000;
     right: 0;
     position:fixed;
@@ -1004,8 +1009,10 @@ body{
     height:100px;
     border: 1px solid #444;
 }
-.buycar:hover,.buycar i:hover{
+.buycar:hover{
     background: red;
+}
+.buycar:hover i{
     color:#fff!important;
 }
 .mui-mbar-tab em{
@@ -1054,10 +1061,15 @@ body{
     z-index:8;
 }
 .slider-nav .active{
-    background:darkred;
+    background:yellow;
 }
 .middle-column-con ul li:hover{
     border: 1px solid red;
+}
+.guanggao{
+    display: block;
+    width:1230px;
+    margin:0 auto;
 }
 
 

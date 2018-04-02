@@ -73,7 +73,7 @@
 {
     let item=$(".supermarket");
     let tip=$(".fpLift a");
-    let arr=["#EAA8DC","orange","#A9EAE4","green","blue","pink","#EA5F8D","#0AA6E8"]
+    let arr=["#EAA8DC","orange","#A9EAE4","green","blue","pink","#EA5F8D","#0AA6E8"];
     $(tip).click(function(){
         let index=$(tip).index(this);
         let ot=$(item).eq(index).offset().top-70;
